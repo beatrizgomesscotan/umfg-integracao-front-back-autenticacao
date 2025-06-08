@@ -39,7 +39,7 @@ body{
     position: absolute;
     width: 40%;
     height: 100%;
-    background-color: #58af9b;
+    background-color: #87CEFA;
 }
 
 .first-content{
@@ -96,7 +96,7 @@ body{
 }
 
 .title-second{
-    color: #58af9b;
+    color: #87CEFA;
 }
 
 .description-primary{
@@ -147,8 +147,8 @@ body{
 }
 
 .link-social-midia:hover .item-social-midia{
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #87CEFA;
+    border: 1px solid #87CEFA;
     color: #ffffff;
 }
 
@@ -181,18 +181,18 @@ body{
 
 .button-primary:hover{
     background-color: #ffffff;
-    color: #58af9b;
+    color: #87CEFA;
 }
 
 .button-second{
-    background-color: #58af9b;
-    border: 1px solid #58af9b;
+    background-color: #87CEFA;
+    border: 1px solid #87CEFA;
 }
 
 .button-second:hover{
     background-color: #ffffff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid #87CEFA;
+    color: #87CEFA;
 }
 
 .icons{
@@ -353,4 +353,17 @@ body{
         left: 60%;
         width: 40%;
     }
+    
+}
+
+#welcome-message {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px auto;
+    max-width: 150px;
+    margin-top: -75px;
 }
