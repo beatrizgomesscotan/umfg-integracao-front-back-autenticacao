@@ -29,7 +29,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 960px;
-    height: 50%;
+    height: 65%;
     border-radius: 15px;
     background-color: #FFF;
 }
@@ -361,9 +361,47 @@ body{
     font-weight: normal;
 }
 
-.logo {
-    display: block;
-    margin: 0 auto 10px auto;
-    max-width: 150px;
-    margin-top: -40px;
+
+/* Estilos exclusivos da tela welcome.html */
+body.welcome-body {
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
 }
+
+.welcome-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+#welcome-message {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  max-width: 120px;
+  height: auto;
+}
+
+.destaque {
+  color: green; 
+  font-weight: bold;
+}
+
+
+

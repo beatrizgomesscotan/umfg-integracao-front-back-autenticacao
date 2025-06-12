@@ -17,6 +17,7 @@ window.onload = function () {
     }
   }
 
-  welcomeMessage.textContent = `Seja bem-vindo(a), ${userEmail}! Seu token expira ${formattedExpiration}.`;
+welcomeMessage.innerHTML = `Seja bem-vindo(a), <span class="destaque">${userEmail}</span>! Seu token expira <span class="destaque">${formattedExpiration}</span>.`;
+
 };
 
